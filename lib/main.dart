@@ -4,6 +4,7 @@ import 'screens/sign_up_screen.dart';
 import 'screens/home_screen.dart';
 import 'screens/messages_screen.dart';
 import 'screens/profile_screen.dart';
+import 'screens/menu_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/': (context) => SignInScreen(),
+        '/': (context) => MainMenuScreen(),
+        '/sign-in': (context) => SignInScreen(),
         '/sign-up': (context) => SignUpScreen(),
         '/home': (context) => HomeScreen(),
         '/messages': (context) => MessagesScreen(),

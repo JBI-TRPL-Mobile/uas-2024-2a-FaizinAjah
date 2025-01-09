@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
-
 class Message {
-  
+  final String sender;
+  final String content;
+
+  Message({required this.sender, required this.content});
 }
