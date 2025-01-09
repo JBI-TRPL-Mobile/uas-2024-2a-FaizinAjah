@@ -19,14 +19,14 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: '/',
+      initialRoute: '/', 
       routes: {
-        '/': (context) => MainMenuScreen(),
-        '/sign-in': (context) => SignInScreen(),
-        '/sign-up': (context) => SignUpScreen(),
-        '/home': (context) => HomeScreen(),
-        '/messages': (context) => MessagesScreen(),
-        '/profile': (context) => ProfileScreen(),
+        '/': (context) => MainMenuScreen(), 
+        '/sign-in': (context) => SignInScreen(), 
+        '/sign-up': (context) => SignUpScreen(), 
+        '/home': (context) => HomeScreen(), 
+        '/messages': (context) => MessagesScreen(), 
+        '/profile': (context) => ProfileScreen(), 
       },
     );
   }

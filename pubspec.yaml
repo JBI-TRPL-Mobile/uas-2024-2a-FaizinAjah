@@ -56,6 +56,12 @@ flutter:
     - assets/images/profile_placeholder.jpg
     - assets/images/google_logo.png
     - assets/images/facebook_logo.png
+    - assets/images/welcome_image.jpg
+    - assets/images/gambar1.jpg
+    - assets/images/gambar2.webp
+    - assets/images/gambar3.jpeg
+    - assets/images/gambar4.png
+    - assets/images/nophoto.png
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

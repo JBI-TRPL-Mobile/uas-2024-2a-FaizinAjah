@@ -51,7 +51,7 @@ class SignInScreen extends StatelessWidget {
               decoration: InputDecoration(
                 labelText: 'Password',
                 border: OutlineInputBorder(),
-                suffixIcon: Icon(Icons.visibility_off), // icon untuk melihat password
+                suffixIcon: Icon(Icons.visibility_off), 
               ),
             ),
             SizedBox(height: 8),
@@ -74,7 +74,7 @@ class SignInScreen extends StatelessWidget {
               },
               child: Text('Sign In'),
               style: ElevatedButton.styleFrom(
-                minimumSize: Size(double.infinity, 50), // Button lebar penuh
+                minimumSize: Size(double.infinity, 50),
               ),
             ),
             SizedBox(height: 16),
@@ -92,7 +92,7 @@ class SignInScreen extends StatelessWidget {
                   width: 40,
                   height: 40,
                   child: IconButton(
-                    icon: Image.asset('assets/images/google_logo.png'), // Logo Google
+                    icon: Image.asset('assets/images/google_logo.png'),
                     onPressed: () {
 
                     },
@@ -104,7 +104,7 @@ class SignInScreen extends StatelessWidget {
                   width: 40,
                   height: 40,
                   child: IconButton(
-                    icon: Image.asset('assets/images/facebook_logo.png'), // Logo Facebook
+                    icon: Image.asset('assets/images/facebook_logo.png'), 
                     onPressed: () {
 
                     },
